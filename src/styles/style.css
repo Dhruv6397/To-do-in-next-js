@@ -1,0 +1,52 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 6rem;
+    min-height: 100vh;
+  }
+  
+  .form-class{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    height: 20%;
+  }
+
+  input{
+    width: 80%;
+    font-size: 1em;
+    padding: .5em;
+    border-radius: 20px;
+  }
+
+  .add-button{
+    border-radius:20px;
+    padding: .5em;
+    background-color: rgb(153, 212, 212);
+    color: black;
+  }
+  .delete-button{
+    background-color: rgb(219, 108, 108);
+    color: white;
+    border-radius: 10px;
+    padding: .3em;
+  }
+  .list-container{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .item{
+    font-size: 2em;
+    list-style: decimal;
+  }
+
+  button{
+    cursor: pointer;
+  }
